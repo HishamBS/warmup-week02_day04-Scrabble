@@ -32,12 +32,4 @@ var letterScores = {
 
 
 
-  let getScore = function(word){
-      let letter = word.toUpperCase();
-      let result = 0;
-      for(let i = 0; i < letter.length ; i++){
-        result += letterScores[letter[i]];
-      }
-      return result;
-  }
-  console.log(getScore("cabbage"));
+ 
